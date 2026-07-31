@@ -90,7 +90,7 @@ async def start_command(bot: Client, message: Message):
     # Caption for the image
     caption = (
         "🌟 OG OFFICIAL 🌟\n\n"
-        "➽ I am Powerful OG Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /help for use this Bot.\n\n➽ **ᴊᴏɪɴ ᴏᴜʀ <a href='http://t.me/ogofficialReal'>__TG Channel__</a>**\n➽ **Add me in <a href='http://t.me/OGXTRACTORBOT?startchannel=true'>__Your Channel__</a>**\n➽ **Add me in <a href='http://t.me/OGXTRACTORBOT?startgroup=true'>__Your Group__</a>**\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 :𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝</code></pre>"
+        "➽ I am Powerful OG Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /help for use this Bot.\n\n➽ **ᴊᴏɪɴ ᴏᴜʀ <a href='http://t.me/ogofficialReal'>__TG Channel__</a>**\n➽ **Add me in <a href='http://t.me/OGXTRACTORBOT?startchannel=true'>__Your Channel__</a>**\n➽ **Add me in <a href='http://t.me/OGXTRACTORBOT?startgroup=true'>__Your Group__</a>**\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : 𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝ </code></pre>"
     )
 
     await asyncio.sleep(1)
@@ -965,7 +965,7 @@ async def txt_handler(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
     file_name, ext = os.path.splitext(os.path.basename(x))
-    credit = f"『ᴀᴅᴍɪɴ』"
+    credit = f"⁣𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝"
     try:    
         with open(x, "r") as f:
             content = f.read()
@@ -1014,9 +1014,9 @@ async def txt_handler(bot: Client, m: Message):
         raw_text3 = '/admin'
 
     # Default credit message
-    credit = "️[『ᴀᴅᴍɪɴ』 🕊️](https://t.me/ogofficialReal)"
+    credit = "️[⁣𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝](https://t.me/ogofficialReal)"
     if raw_text3 == '1':
-        CR = '[『ᴀᴅᴍɪɴ』 🕊️](https://t.me/ogofficialReal)'
+        CR = '[⁣𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝](https://t.me/ogofficialReal)'
     elif raw_text3:
         CR = raw_text3
     else:
@@ -1034,7 +1034,7 @@ async def txt_handler(bot: Client, m: Message):
             url = "https://" + Vxy
 
             name1 = links[i][0].replace("\t", "").replace(":", "").replace("/", "").replace("+", "").replace("#", "").replace("|", "").replace("@", "").replace("*", "").replace(".", "").replace("https", "").replace("http", "").strip()
-            name = f'{name1[:60]} 『ᴀᴅᴍɪɴ』'
+            name = f'{name1[:60]} ⁣𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝'
 
             try:  
                 cc1 = f'**[📕]Pdf Id  ➠** {str(count).zfill(3)}\n**[📁]Tᴏᴘɪᴄ ➠** `{name1} .pdf`\n\n<pre><code>**📚 Course ➠** {b_name}</code></pre>\n\n** 🌟 Extracted By : {CR}**'                 
