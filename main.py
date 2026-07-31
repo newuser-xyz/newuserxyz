@@ -62,8 +62,8 @@ bot = Client("bot",
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="http://t.me/Devfff_bot"),
-            InlineKeyboardButton(text="🛠️ Help", url="http://t.me/Devfff_bot"),
+            InlineKeyboardButton(text="📞 Contact", url="http://t.me/ogofficialReal"),
+            InlineKeyboardButton(text="🛠️ Help", url="http://t.me/ogofficialReal"),
         ],
     ]
 )
@@ -89,8 +89,8 @@ async def start_command(bot: Client, message: Message):
     
     # Caption for the image
     caption = (
-        "🌟 Welcome Boss🦁! 🌟\n\n"
-        "➽ I am Powerful DRM Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /help for use this Bot.\n\n➽ **ᴊᴏɪɴ ᴏᴜʀ <a href='http://t.me/Devfff_bot'>__TG Channel__</a>**\n➽ **Add me in <a href='http://t.me/Devfff_bot?startchannel=true'>__Your Channel__</a>**\n➽ **Add me in <a href='http://t.me/Devfff_bot?startgroup=true'>__Your Group__</a>**\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : 『ᴀᴅᴍɪɴ』 🦁</code></pre>"
+        "🌟 OG OFFICIAL 🌟\n\n"
+        "➽ I am Powerful OG Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /help for use this Bot.\n\n➽ **ᴊᴏɪɴ ᴏᴜʀ <a href='http://t.me/ogofficialReal'>__TG Channel__</a>**\n➽ **Add me in <a href='http://t.me/OGXTRACTORBOT?startchannel=true'>__Your Channel__</a>**\n➽ **Add me in <a href='http://t.me/OGXTRACTORBOT?startgroup=true'>__Your Group__</a>**\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 :𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝</code></pre>"
     )
 
     await asyncio.sleep(1)
@@ -153,7 +153,7 @@ async def info(bot: Client, update: Message):
         reply_markup=BUTTONS
     )
 
-BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url=f"http://t.me/Gurjar_Html_Bot")]])
+BUTTONS = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url=f"https://t.me/ogofficialReal")]])
 
 # /id Command - Show Group/Channel ID
 @bot.on_message(filters.command(["id"]))
@@ -166,7 +166,7 @@ async def txt_handler(client: Client, m: Message):
     await bot.send_message(
         m.chat.id,
         text=(
-            "🎉 Welcome to 『ᴀᴅᴍɪɴ』 Bot!\n"
+            "🎉 Welcome to 𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝ Bot!\n"
             "━━━━━━━━━━━━━━━━━━━━━━\n"
             "/start   - Check bot status\n"
             "/drm     - Extract .txt file\n"
@@ -558,7 +558,7 @@ async def account_login(bot: Client, m: Message):
     await editable.edit(f"╭━━━━❰ᴇɴᴛᴇʀ ʀᴇꜱᴏʟᴜᴛɪᴏɴ❱━━➣\n"
                         f"┣━⪼ 144, 240, 360\n"
                         f"┣━⪼ 480, 720, 1080\n"
-                        f"╰━━⌈⚡[`🦋『ᴀᴅᴍɪɴ』🦋`]⚡⌋━━➣")
+                        f"╰━━⌈⚡[`🦋𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝🦋`]⚡⌋━━➣")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     quality = f"{raw_text2}p"
@@ -586,9 +586,9 @@ async def account_login(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️『ᴀᴅᴍɪɴ』 🕊️"
+    credit = "️𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝"
     if raw_text3 == '1':
-        CR = '『ᴀᴅᴍɪɴ』 🕊️'
+        CR = '𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
@@ -1014,9 +1014,9 @@ async def txt_handler(bot: Client, m: Message):
         raw_text3 = '/admin'
 
     # Default credit message
-    credit = "️[『ᴀᴅᴍɪɴ』 🕊️](http://t.me/Devfff_bot)"
+    credit = "️[『ᴀᴅᴍɪɴ』 🕊️](https://t.me/ogofficialReal)"
     if raw_text3 == '1':
-        CR = '[『ᴀᴅᴍɪɴ』 🕊️](http://t.me/Devfff_bot)'
+        CR = '[『ᴀᴅᴍɪɴ』 🕊️](https://t.me/ogofficialReal)'
     elif raw_text3:
         CR = raw_text3
     else:
