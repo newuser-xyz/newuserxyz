@@ -37,9 +37,9 @@ from config import API_ID, API_HASH, BOT_TOKEN
 cookies_file_path= "youtube_cookies.txt"
 # watermark_text = ""
 
-photologo = 'https://tinypic.host/images/2025/02/07/DeWatermark.ai_1738952933236-1.png'
-photoyt = 'https://tinypic.host/images/2025/03/18/YouTube-Logo.wine.png'
-photocp = 'https://tinypic.host/images/2025/03/28/IMG_20250328_133126.jpg'
+photologo = 'https://postimage.me/image/Ko4je'
+photoyt = 'https://postimage.me/image/Ko4je'
+photocp = 'https://postimage.me/image/Ko4je'
 
 async def show_random_emojis(message):
     emojis = ['🐼', '🐶', '🐅', '⚡️', '🚀', '✨', '💥', '☠️', '🥂', '🍾']
@@ -71,7 +71,7 @@ keyboard = InlineKeyboardMarkup(
 
 # Image URLs for the random image feature
 image_urls = [
-    "https://tinypic.host/images/2025/02/07/IMG_20250207_224444_975.jpg",
+    "https://postimage.me/image/Ko4je",
     # Add more image URLs as needed
 ]
 
@@ -89,8 +89,8 @@ async def start_command(bot: Client, message: Message):
     
     # Caption for the image
     caption = (
-        "🌟 OG OFFICIAL 🌟\n\n"
-        "➽ I am Powerful OG Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /help for use this Bot.\n\n➽ **ᴊᴏɪɴ ᴏᴜʀ <a href='http://t.me/ogofficialReal'>__TG Channel__</a>**\n➽ **Add me in <a href='http://t.me/OGXTRACTORBOT?startchannel=true'>__Your Channel__</a>**\n➽ **Add me in <a href='http://t.me/OGXTRACTORBOT?startgroup=true'>__Your Group__</a>**\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : 𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝ </code></pre>"
+        "🌟 OG OFFICIAL 🫰 🌟\n\n"
+        "➽ I am Powerful OG Uploader Bot 📥\n\n➽ 𝐔𝐬𝐞 /help for use this Bot.\n\n➽ **ᴊᴏɪɴ ᴏᴜʀ <a href='http://t.me/ogofficialReal'>__TG Channel__</a>**\n➽ **Add me in <a href='http://t.me/KabirSinghUploader1Bot?startchannel=true'>__Your Channel__</a>**\n➽ **Add me in <a href='http://t.me/KabirSinghUploader1Bot?startgroup=true'>__Your Group__</a>**\n\n<pre><code> 𝐌𝐚𝐝𝐞 𝐁𝐲 : 𓍯𝙤𝙜𝙗𝙝𝙖𝙩𝙞𝙬𝙖𝙡⚝ </code></pre>"
     )
 
     await asyncio.sleep(1)
